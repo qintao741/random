@@ -1,0 +1,31 @@
+{
+  "name": "random-tao",
+  "version": "0.0.1",
+  "description": "\"generate random number\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"babel test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qintao741/random.git"
+  },
+  "keywords": [
+    "random",
+    "tao"
+  ],
+  "babel":{
+      "presets":["es2015"]
+  },
+  "author": "qintao741",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qintao741/random/issues"
+  },
+  "homepage": "https://github.com/qintao741/random#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-cli": "^6.0.0"
+  }
+}
